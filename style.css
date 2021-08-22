@@ -1,0 +1,157 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&family=Montserrat:wght@500&display=swap');
+/* Variables */
+
+:root {
+    --main-color: #333;
+    --secondary-color: #4F4F4F;
+    --footer-color: #BDBDBD;
+    --title-font: normal bold 48px/71px "Space Mono";
+    --header-font: normal bold 24px/25px "Inconsolata";
+    --footer-font: normal 500 14px/17px "Montserrat";
+}
+
+/* Utility Classes */
+
+.w-100 {
+    width: 100vw;
+}
+
+.h-auto {
+    height: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.l-spacing--1 {
+    letter-spacing: -0.035em;
+}
+
+/* Resets */
+
+*,
+*::before, 
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Selectors */
+
+header {
+    padding: 20px 0 20px 24px;
+}
+
+header a {
+    width: 133px;
+    height: 25px;
+    text-align: left;
+    letter-spacing: -0.08em;
+    font: var(--header-font);
+    color: var(--main-color);
+}
+
+section {
+    padding: 44px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section img {
+    margin: 0 44px 60px;
+    width: 286.83px;
+}
+
+section div {
+    margin-left: 24px;
+    width: calc(100vh - 24px);
+}
+
+section div h1 {
+    font: var(--title-font);
+    color: var(--main-color);
+}
+
+section div h1 br {
+    display: none;
+}
+
+section div p {
+    margin: 30px 0 66px;
+    width: 328px;
+    font: var(--title-font);
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--secondary-color);
+}
+
+section div a {
+    width: 216px;
+    height: 68px;
+    padding: 24px 43px 23px;
+    background: var(--main-color);
+    font: var(--title-font);
+    font-size: 14px;
+    line-height: 68px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 24px 0;
+}
+
+footer p  {
+    font: var(--footer-font);
+    color: var(--footer-color);
+    letter-spacing: -0.02em;
+    font-weight: 500;
+}
+
+footer p span {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1440px) {
+    header {
+        padding: 40px 0 0 77px;
+    }
+    section {
+        padding-top: 200px;
+        flex-flow: row nowrap;
+    }
+    section img {
+        margin: 0 100px 0 77px;
+        width: 539.22px;
+        height: 414.25px;
+    }
+    section div h1 {
+        font-size: 64px;
+    }
+    section div h1 br {
+        display: block;
+    }
+    section div p {
+        width: 381px;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    section div p br {
+        display: none;
+    }
+}
