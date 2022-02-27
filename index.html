@@ -2,35 +2,54 @@
 <html lang="en">
 
 <head>
+    <!-- Metadata -->
+    <title>404 Page</title>
     <meta name="author" content="Dennis">
     <meta name="description" content="404 page demo project for 'Responsive Web Developer' path @devChallenges.io">
     <meta name="keywords" content="web development, html, css, Responsive Design, Figma, 404 Page">
-    <title>404 Page</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" href="/assets/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="/assets/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&family=Montserrat:wght@500&display=swap">
-    
-    <!-- CSS File -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&family=Montserrat:wght@500&display=swap">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    
+<body class="page-wrapper">
+    <!-- header -->
+    <header>
+        <a href="#">
+            <h1>404 NOT FOUND</h1>
+        </a>
+    </header>
+
+    <!-- main -->
+    <main class="flex-wrapper">
+        <img src="assets/Scarecrow.png" alt="scarecrow illustration" width="1079" height="895">
+        <section>
+            <header>
+                <h2>I have bad news for you</h2>
+            </header>
+            <p>
+                the page you are looking for might be removed or is temporarily unavailable
+            </p>
+            <a href="#" role="button">BACK TO HOMEPAGE</a>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer>created by <b><u>Dennis</u></b> - devChallenges.io</footer>
 </body>
 
 </html>
