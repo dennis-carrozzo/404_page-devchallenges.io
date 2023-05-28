@@ -34,7 +34,7 @@
 
 ## Overview
 
-![screenshot](https://404page-devchallengesdotio.netlify.app/assets/screenshot.jpg)
+![screenshot](/assets/screenshot.jpg)
 
 Simple 404 page build with plain html and css from figma design.
 
